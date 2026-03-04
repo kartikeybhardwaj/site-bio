@@ -1,5 +1,28 @@
-.DS_Store
-firebase-debug.log
-*.log
+# Dependencies
 node_modules/
+
+# Environment
+.env*
+
+# Firebase
 .firebase/
+firebase-debug.log
+
+# Build artifacts
+dist/
+build/
+cdk.out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
